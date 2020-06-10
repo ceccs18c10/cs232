@@ -1,0 +1,46 @@
+Script started on Friday 28 February 2020 10:22:18 AM IST
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ [K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ 
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ ls
+work.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ ls-l[K[K -l
+total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 28 10:22 work.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ ls -lt [A
+total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 28 10:22 work.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ ls -lt r
+total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 28 10:22 work.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ ls -[K[K ab*  -d
+ls: cannot access ab*: No such file or directory
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ get[K[K[Kgedit  fole1.txt[K[K[K[K[K[K[K[Kile1.txt
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ 
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ sort - n file.txt[K[K[K[K1.txt
+1
+2
+3
+4
+5
+6
+7
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ sort -nn file1.txt[A]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ gedit f[2Pile1.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ cut -f 3 file1.txt
+5
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ cut -f -3 file1.txt
+7	6	5
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ cut -f--3 file1.txt[1P[C[C[C[C[C[C[C[C[C[C[C[1P.txt2.txt
+cut: file2.txt: No such file or directory
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ cut -f33 file2.txt-3 file1.txt[1P[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ gedit f[2Pile1.txt[1P.txt2.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ gedit ffile2.txt[A]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ cut -f3 file2.txt-3 file1.txt[1P[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ gedit f[2Pile1.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ paste  file1.txt
+hello
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ paste  file2.txt
+world
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ paste  file1.txt pat[Ks[K[K[Kfile [K2.txt
+hello	world
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ grep o  file2.txt
+w[01;31m[Ko[m[Krld
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802$ exit
+
+Script done on Friday 28 February 2020 10:34:51 AM IST

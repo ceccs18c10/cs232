@@ -1,0 +1,7 @@
+Script started on Friday 28 February 2020 12:11:58 PM IST
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.3s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.3$ gedi t index.htnl[K[Kml
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.3s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.3$ [K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.3s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.3$ [K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.3s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.3$ gedit report.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.3s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.3$ exit
+exit
+
+Script done on Friday 28 February 2020 12:23:21 PM IST

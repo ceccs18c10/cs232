@@ -1,0 +1,18 @@
+CEC CS 18 10
+Arjun A
+--------------------------------
+#1: Create own web page at our server(t9)
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+index.html
+---------------
+Input: (If relevant)
+---------------
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------
+-------------------
+Remarks if any:
+-------------------
+

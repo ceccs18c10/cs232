@@ -1,0 +1,68 @@
+CEC CS 18 c 10
+
+ARJUN A
+
+--------------------------------
+#1: Linux Installation(t6)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: 
+---------------
+
+      Linux  mint installation CD
+--------------------------------
+Output: or Input & Output 
+     
+
+     Linux  mint  is installed
+     
+
+-------------------
+Remarks if any:
+
+      images are placed in the folder
+      photos  1-4  shows various steps of installation
+
+
+--------------------------------
+
+#2: Setting up ftp and http servers(t7)
+ ---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	#to install ftp server
+	sudo apt-get install vsftpd
+	
+	#to edit server configuration
+	sudo gedit /etc/vsftpd.conf
+	
+	#to connect to ftp on local server
+	ftp localhost	
+	
+	#to install apache2
+	sudo apt-get install apache2
+	
+	#to edit HTML file
+	sudo gedit /var/www/html/index.html
+
+--------------------------------
+Output: 
+	
+	# ftp server available at 192.168.225.25
+	
+		
+
+-------------------
+Remarks if any:
+
+            # Apache http server :screenshot of webpage attached.
+	  HTTP.png
+
+-------------------------------------
+-------------------------------------
+

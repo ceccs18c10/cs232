@@ -1,0 +1,106 @@
+CEC CS 18 010
+Arjun A
+--------------------------------
+#1: Aim/task
+---------------------------------
+t1 - Familiarization of Linux commands
+sort
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+sort -n file.txt - used to sort a file numerically
+-------------------
+Input: (If relevant)
+-------------------
+file.txt
+5
+4
+3
+2
+1
+-------------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------------------------
+terminal
+1
+2
+3
+4
+5
+-------------------
+Remarks if any:
+-------------------
+
+
+#2: Aim/task
+---------------------------------
+t2 - Familiarization of Linux commands
+sort
+---------------------------------
+Command/Shell script/Program name
+--------------------------------
+cut -f1 file.txt
+-------------------
+Input: (If relevant)
+-------------------
+file.txt
+6
+5
+4
+3
+2
+1
+-------------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------------------------
+terminal
+
+-------------------
+Remarks if any:
+-------------------
+#3: Aim/task
+---------------------------------
+t3 - Familiarization of Linux commands
+sort
+---------------------------------
+Command/Shell script/Program name
+--------------------------------
+paste t1.txt t2.txt - used to paste 2 files co
+-------------------
+Input: (If relevant)
+-------------------
+t1.txt
+hello
+t2.txt
+world
+-------------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------------------------
+terminal
+hello world
+
+-------------------
+Remarks if any:
+-------------------
+#4: Aim/task
+--------------------------------
+t4 - Familiarization of Linux commands
+grep
+Command/Shell script/Program name
+---------------------------------
+grep -c '0' state.txt - used to check a substring in a text file.
+-------------------
+Input: (If relevant)
+---------------
+state.txt
+hello
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------
+terminal
+1
+-------------------
+Remarks if any:
+-------------------
+
+

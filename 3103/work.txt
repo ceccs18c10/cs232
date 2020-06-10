@@ -1,0 +1,134 @@
+Script started on 2020-03-31 20:30:47+0530
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ sudo apt-get install vsftpd
+[sudo] password for Arjun: * ******      
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+vsftpd is already the newest version (3.0.3-9build1).
+0 upgraded, 0 newly installed, 0 to remove and 9 not upgraded.
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ sudo vim /etc/vsftpd.conf[C[1P /etc/vsftpd.conf[1P /etc/vsftpd.conf[1P /etc/vsftpd.confg /etc/vsftpd.confe /etc/vsftpd.confd /etc/vsftpd.confi /etc/vsftpd.conft /etc/vsftpd.conf
+
+** (gedit:4237): [1;33mWARNING[0m **: [34m20:48:07.719[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4237): [1;33mWARNING[0m **: [34m20:48:07.720[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4237): [1;33mWARNING[0m **: [34m20:48:08.967[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4237): [1;33mWARNING[0m **: [34m20:48:08.968[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4237): [1;33mWARNING[0m **: [34m20:48:13.560[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ ftplocalhost
+ftplocalhost: command not found
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ ftplocalhost[C localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:Arjun): Arjun
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    2 1000     1000         4096 Mar 22 11:25 Desktop
+drwxr-xr-x    2 1000     1000         4096 Mar 22 11:25 Documents
+drwxr-xr-x    2 1000     1000         4096 Mar 22 11:25 Downloads
+drwxr-xr-x    2 1000     1000         4096 Mar 22 11:25 Music
+drwxr-xr-x    2 1000     1000         4096 Mar 30 21:44 Pictures
+drwxr-xr-x    2 1000     1000         4096 Mar 22 11:25 Public
+drwxr-xr-x    2 1000     1000         4096 Mar 22 11:25 Templates
+drwxr-xr-x    2 1000     1000         4096 Mar 22 11:25 Videos
+drwxr-xr-x    6 1000     1000         4096 Mar 31 20:11 arjun
+drwxr-xr-x    3 1000     1000         4096 Mar 30 20:32 jonathan
+drwxrwxr-x    3 1000     1000         4096 Mar 22 12:18 movies
+-rw-r--r--    1 1000     1000         1744 Mar 28 14:30 report.txt
+226 Directory send OK.
+ftp> cd arjun
+250 Directory successfully changed.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxrwxr-x    2 1000     1000         4096 Mar 24 22:48 2403
+drwxr-xr-x    3 1000     1000         4096 Mar 28 14:49 2803
+drwxr-xr-x    2 1000     1000         4096 Mar 30 21:55 3003
+drwxr-xr-x    2 1000     1000         4096 Mar 31 20:11 3103
+226 Directory send OK.
+ftp> exit
+221 Goodbye.
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ sudo apt-get install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 9 not upgraded.
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ sudo vim /var/www/html/index.html[1P /var/www/html/index.html[1P /var/www/html/index.html[1P /var/www/html/index.htmlg /var/www/html/index.htmle /var/www/html/index.htmld /var/www/html/index.htmli /var/www/html/index.htmlt /var/www/html/index.html
+
+** (gedit:4271): [1;33mWARNING[0m **: [34m20:50:11.809[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ sudo gedit /var/www/html/index.html[7Papt-get install apache2[15Pftp localhostsudo apt-get install apache2gedit /var/www/html/index.html[Khostname -I
+192.168.225.25 2409:4073:10c:a89d:902:9613:481a:c37 2409:4073:10c:a89d:a11c:290c:32ba:9976 
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ hostname -Isudo gedit /var/www/html/index.html
+
+** (gedit:4289): [1;33mWARNING[0m **: [34m20:52:10.840[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4289): [1;33mWARNING[0m **: [34m20:52:10.841[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4289): [1;33mWARNING[0m **: [34m20:56:23.787[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4289): [1;33mWARNING[0m **: [34m20:56:23.788[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4289): [1;33mWARNING[0m **: [34m20:56:25.611[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:4289): [1;33mWARNING[0m **: [34m20:56:25.612[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:4289): [1;33mWARNING[0m **: [34m20:56:27.468[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ EXIT
+EXIT: command not found
+]0;Arjun@Arjun-Lenovo-G580: ~/arjun/3103[01;32mArjun@Arjun-Lenovo-G580[00m:[01;34m~/arjun/3103[00m$ exit
+exit
+
+Script done on 2020-03-31 20:59:32+0530

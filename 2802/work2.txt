@@ -1,0 +1,256 @@
+Script started on Friday 28 February 2020 11:43:15 AM IST
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ [K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ ifco nfig
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+          inet addr:192.168.0.84  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:246891 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11456 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:29833412 (29.8 MB)  TX bytes:1763735 (1.7 MB)
+          Interrupt:19 Memory:f0500000-f0520000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:104 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:104 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:7108 (7.1 KB)  TX bytes:7108 (7.1 KB)
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ rout e
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ etc
+No command 'etc' found, did you mean:
+ Command 'rtc' from package 'nvram-wakeup' (universe)
+ Command 'tc' from package 'iproute' (main)
+ Command 'htc' from package 'httptunnel' (universe)
+ Command 'atc' from package 'bsdgames' (universe)
+ Command 'etw' from package 'etw' (universe)
+ Command 'dtc' from package 'device-tree-compiler' (main)
+etc: command not found
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ [K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ [K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+          inet addr:192.168.0.84  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:263374 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11591 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:31109749 (31.1 MB)  TX bytes:1775452 (1.7 MB)
+          Interrupt:19 Memory:f0500000-f0520000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:104 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:104 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:7108 (7.1 KB)  TX bytes:7108 (7.1 KB)
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ ping
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ ping 193[K2.168.02[K.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.271 ms
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.554 ms
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.410 ms
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.258 ms
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.839 ms
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.508 ms
+c64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.581 ms
+cccc64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.267 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.2
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ route add default ge[Kw.[K 192.168.0[K1.1
+SIOCADDRT: Operation not permitted
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ iwconfig
+lo        no wireless extensions.
+
+eth0      no wireless extensions.
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ gedit file1[K.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ ssh cs18c10@192.168.2[K0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ rsync -a
+rsync  version 3.0.9  protocol version 30
+Copyright (C) 1996-2011 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 32-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=KBPS          limit I/O bandwidth; KBytes per second
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1521) [Receiver=3.0.9]
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ sftp cs18c10@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ sftp cs18c10@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ sftp cs18c10@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ sftp cs18c10@192.168.0.30rsync -a[Ksftp cs18c10@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ sftp cs18c10@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ gedit reort.txt[K[K[K[K[K[K[Kport.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ exit
+exit
+There are stopped jobs.
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/ceccs18c10/cs232/2802.2s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/ceccs18c10/cs232/2802.2$ exit
+exit
+
+Script done on Friday 28 February 2020 12:04:50 PM IST
